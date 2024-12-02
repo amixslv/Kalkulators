@@ -1,1 +1,2 @@
 # Kalkulators
+Pagaidām tikai izskats.
