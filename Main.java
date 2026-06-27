@@ -55,7 +55,7 @@ public class Main {
                dzestBtn, nulleBtn, komatsBtn, vienadsBtn}) {
            btn.setFont(btnFont);
        }
-
+      
        btnPanel.add(acBtn);
        btnPanel.add(mainusPlussBtn);
        btnPanel.add(procentiBtn);
