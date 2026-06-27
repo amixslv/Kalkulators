@@ -24,13 +24,6 @@ public class Main {
 
        // Pogas
        JPanel btnPanel = new JPanel(new GridLayout(5, 4, 5, 5));
-       btnPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-       btnPanel.setBackground(Color.LIGHT_GRAY);
-       btnPanel.setPreferredSize(new Dimension(400, 500));
-       btnPanel.setLayout(new GridLayout(5, 4, 5, 5));
-       btnPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-       btnPanel.setBackground(Color.LIGHT_GRAY);
-
 
        JButton acBtn = new JButton("AC");
        JButton mainusPlussBtn = new JButton("+/-");
@@ -53,6 +46,7 @@ public class Main {
        JButton komatsBtn = new JButton(",");
        JButton vienadsBtn = new JButton("=");
 
+        //  Pielāgo pogu fontu 
        Font btnFont = new Font("Arial", Font.BOLD, 28);
        for (JButton btn : new JButton[]{acBtn, mainusPlussBtn, procentiBtn, dalitsBtn,
                septiniBtn, astoniBtn, deviniBtn, reizBtn,
