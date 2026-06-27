@@ -46,6 +46,16 @@ public class Main {
        JButton komatsBtn = new JButton(",");
        JButton vienadsBtn = new JButton("=");
 
+        //  Pielāgo pogu fontu 
+       Font btnFont = new Font("Arial", Font.BOLD, 28);
+       for (JButton btn : new JButton[]{acBtn, mainusPlussBtn, procentiBtn, dalitsBtn,
+               septiniBtn, astoniBtn, deviniBtn, reizBtn,
+               cetriBtn, pieciBtn, sesiBtn, minusBtn,
+               viensBtn, diviBtn, trisBtn, plusBtn,
+               dzestBtn, nulleBtn, komatsBtn, vienadsBtn}) {
+           btn.setFont(btnFont);
+       }
+      
        btnPanel.add(acBtn);
        btnPanel.add(mainusPlussBtn);
        btnPanel.add(procentiBtn);
